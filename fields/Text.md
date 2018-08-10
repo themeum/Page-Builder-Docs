@@ -4,7 +4,7 @@ A text input field.
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String ('text')
+type | `required` | Predefined String (text)
 title | `optional` | String
 desc | `optional` | String
 placeholder | `optional` | String
