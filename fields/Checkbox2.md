@@ -13,7 +13,7 @@ multiple | `optional` | Boolean ( Default: false )
 std | `optional` | String( multiple: false ) or Array (multiple: false)
 
 ## Return
-return single `string` single
+return single `string` single  
 return `array` for the multiple
 
 ## Example
