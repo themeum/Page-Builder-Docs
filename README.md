@@ -2,7 +2,7 @@
 Developer Documentation of Drag &amp; drop website builder for WordPress
 
 ## Create a Custom Addon
-Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addon/custom_addon.md) from scratch.
+Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addon/CustomAddon.md) from scratch.
 
 
 ## Field Type
