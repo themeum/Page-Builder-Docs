@@ -1,8 +1,11 @@
 # WP-Page-Builder
 Developer Documentation of Drag &amp; drop website builder for WordPress
 
+## Create a Custom Addon
+[Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addons/Alignment.md) - Sample Addons
 
-## Field Type of "WP Page Builder"
+
+## Field Type
 01. [Alignment](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Alignment.md) - Alignment Selector Field
 02. [Animation](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Animation.md) - Animation Input Field (wowjs)
 03. [Background](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Background.md) - Background Field
@@ -29,3 +32,7 @@ Developer Documentation of Drag &amp; drop website builder for WordPress
 24. [Slider](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Slider.md) - Draggable Number input Field
 25. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
 26. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
+
+
+## Default Icon List
+[Icon](https://builder.themeum.com/wppbicon/) - WPPB Default Icon List 
