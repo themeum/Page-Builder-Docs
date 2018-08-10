@@ -86,7 +86,7 @@ return `Array` for responsive true.
 
 ## Controls
 ### PHP
-Inside the `rander()` method-
+Inside the `rander()` method-  
 **For Responsive**
 ```php
 echo '<div>'.$data['settings']['addon_slider']['md'].'</div>';
