@@ -16,7 +16,7 @@ Always return `object`
 ```php
 'data_fontstyle2' => array(
 	'type' => 'fontstyle2',
-	'title' => 'Fontstyle2 Field',
+	'title' => __('Fontstyle2 Field','your-textdomain'),
 	'std' => array(
 				'fontFamily' 	=> '', // Google Font name
 				'fontSize' 		=> [ 'md'=>'20px', 'sm'=>'18px', 'xs'=>'16px' ], // 0 to 400
