@@ -38,7 +38,7 @@ Support 'selector' parameters.
 ```php
 'addon_checkbox2' => array (
     'type' => 'checkbox2',
-    'title' => 'Checkbox2 Title',
+    'title' => __('Checkbox2 Title','your-textdomain'),
     'values' => array(
                     'type1' => 'Type 1',
                     'type2' => 'Type 2',
