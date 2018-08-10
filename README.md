@@ -1,4 +1,4 @@
-# WP-Page-Builder
+# WP Page Builder
 Developer Documentation of Drag &amp; drop website builder for WordPress
 
 ## Create a Custom Addon
