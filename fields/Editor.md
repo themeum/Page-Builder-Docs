@@ -16,7 +16,7 @@ Return `string` (wysiwyg editor output)
 ```php
 'addon_editor' => array(
     'type' => 'editor',
-    'title' => 'Editor Field',
+    'title' => __('Editor Field','your-textdomain'),
     'std' => 'Editor Default Value',
 )
 ```
