@@ -7,7 +7,7 @@ Parameter | Type | Value
 type | `required` | Predefined String (border)
 title | `optional` | String
 desc | `optional` | String
-std | `optional` | String
+std | `optional` | Array
 selector | `optional` | String
 
 ## Return
