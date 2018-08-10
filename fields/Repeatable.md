@@ -54,6 +54,7 @@ foreach ( $settings['repetable_check'] as $key => $value ){
     echo $value['social_url'];
 }
 echo '</div>';
+```
 
 ### JS Template
 Inside the `getTemplate()` method-
