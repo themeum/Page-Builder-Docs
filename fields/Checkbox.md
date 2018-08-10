@@ -15,7 +15,7 @@ return `0` or `1`
 ```php
 'addon_checkbox' => array(
     'type' => 'checkbox',
-    'title' => 'Checkbox Field',
+    'title' => __('Checkbox Field','your-textdomain'),
     'std' => 0
 )
 ```
