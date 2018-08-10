@@ -1,4 +1,4 @@
-#Icon
+# Icon
 A Icon select field (FontAwesome 4 & WPPB Font)
 
 ## Parameters
