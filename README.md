@@ -34,5 +34,5 @@ Developer Documentation of Drag &amp; drop website builder for WordPress
 26. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
 
 
-## Default Icon List
+## Icon List
 [Icon](https://builder.themeum.com/wppbicon/) - WPPB Default Icon List 
