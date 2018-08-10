@@ -4,7 +4,7 @@ A Box-shadow input field
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (boxshadow)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
@@ -16,7 +16,7 @@ Always return `object`
 ```php
 'widget_boxshadow' => array(
 	'type' => 'boxshadow',
-	'title' => 'Boxshadow Field',
+	'title' => __('Boxshadow Field',your-textdomain'),
 	'std' => array(
 		    'shadowValue'=> array( 'top' => '120px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ), 
 		    'shadowColor' 	=> '#ffffff' 
