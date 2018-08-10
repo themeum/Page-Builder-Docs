@@ -2,7 +2,7 @@
 Developer Documentation of Drag &amp; drop website builder for WordPress
 
 ## Create a Custom Addon
-[Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addons/Alignment.md) - Sample Addons
+Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addon/custom_addon.md) from scratch.
 
 
 ## Field Type
