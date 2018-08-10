@@ -16,7 +16,7 @@ Always return `string`
 
 ## Example
 ```php
-'widget_radioimage' => array(
+'addon_radioimage' => array(
     'type' => 'radioimage',
     'title' => __('Radioimage Title','your-textdomain'),
     'values' => array(
@@ -34,11 +34,11 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data['settings']['widget_radioimage'].'</div>';
+echo '<div>'.$data['settings']['addon_radioimage'].'</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
-<div>{{data.widget_radioimage}}</div>
+<div>{{data.addon_radioimage}}</div>
 ```
