@@ -4,7 +4,7 @@ A Background2 Field With Opacity Fields
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (background2)
 title | `optional` | String
 desc | `optional` | String
 opacity | `optional` | Boolean ( Default: false )
