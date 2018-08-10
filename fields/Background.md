@@ -4,7 +4,7 @@ A Background Field
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (background)
 title | `optional` | String
 desc | `optional` | String
 video | `optional` | Boolean ( Video BG only return Data )
