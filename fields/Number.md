@@ -24,8 +24,8 @@ return `object` for multiple.
 ```php
 'addon_number' => array(
     'type' => 'number',
-    'title' => 'Number Field',
-    'placeholder' => 'Number Placeholder',
+    'title' => __('Number Field','your-textdomain'),
+    'placeholder' => __('Number Placeholder','your-textdomain'),
     'range' => array(
                 'em' => array(
                   'min' => 0,
@@ -59,7 +59,7 @@ return `object` for multiple.
 ```php
 'addon_number' => array(
     'type' => 'number',
-    'title' => 'Number Field',
+    'title' => __('Number Field','your-textdomain'),
     'range' => array(
                 'min' => 0,
                 'max' => 8,
@@ -75,7 +75,7 @@ return `object` for multiple.
 ```php
 'addon_number' => array(
     'type' => 'number',
-    'title' => 'Number Field',
+    'title' => __('Number Field','your-textdomain'),
     'range' => array(
                 'min' => 0,
                 'max' => 100,
