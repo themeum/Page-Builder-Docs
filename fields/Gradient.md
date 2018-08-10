@@ -33,7 +33,7 @@ Always return `object`
 )
 ```
 
-`clip` parameters is used for foreground color.
+`clip` parameter is used for foreground color.
 
 ## Controls
 ### PHP
