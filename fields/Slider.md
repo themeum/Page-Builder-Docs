@@ -15,7 +15,7 @@ std | `optional` | String
 selector | `optional` | String Input
 
 ## Return
-return `Number` for responsive false.
+return `Number` for responsive false.  
 return `Array` for responsive true.
 
 ## Example
