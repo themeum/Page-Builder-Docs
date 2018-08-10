@@ -18,10 +18,10 @@ Always return `object`
 	'type' => 'animation',
 	'title' => __('Animation Field','your-textdomain'),
 	'std' => array(
-	    'name' => 'wow animated fadeIn',
+	    	'name' => 'wow animated fadeIn',
 		'delay' => '300',
 		'duration' => '400'
-	),
+	    ),
 )
 ```
 Not support 'selector' parameters.
