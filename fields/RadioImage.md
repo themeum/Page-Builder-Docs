@@ -34,7 +34,7 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$settings['widget_radioimage'].'</div>';
+echo '<div>'.$data['settings']['widget_radioimage'].'</div>';
 ```
 
 ### JS Template
