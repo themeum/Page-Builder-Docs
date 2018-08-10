@@ -18,14 +18,14 @@ Always return `object`
 	'type' => 'fontstyle2',
 	'title' => __('Fontstyle2 Field','your-textdomain'),
 	'std' => array(
-				'fontFamily' 	=> '', // Google Font name
-				'fontSize' 		=> [ 'md'=>'20px', 'sm'=>'18px', 'xs'=>'16px' ], // 0 to 400
-				'lineHeight' 	=> [ 'md'=>'20px', 'sm'=>'18px', 'xs'=>'16px' ], // 0 to 400
-				'fontWeight' 	=> '200', //100 to 900
-				'textTransform' => '', // none inherit capitalize lowercase uppercase
-				'fontStyle' 	=> '', //normal, italic, oblique
-				'letterSpacing' => [ 'md'=>'0px', 'sm'=>'0px', 'xs'=>'0px' ],  // 0 to 20
-			),
+		'fontFamily' 	=> '', // Google Font name
+		'fontSize' 		=> [ 'md'=>'20px', 'sm'=>'18px', 'xs'=>'16px' ], // 0 to 400
+		'lineHeight' 	=> [ 'md'=>'20px', 'sm'=>'18px', 'xs'=>'16px' ], // 0 to 400
+		'fontWeight' 	=> '200', //100 to 900
+		'textTransform' => '', // none inherit capitalize lowercase uppercase
+		'fontStyle' 	=> '', //normal, italic, oblique
+		'letterSpacing' => [ 'md'=>'0px', 'sm'=>'0px', 'xs'=>'0px' ],  // 0 to 20
+		),
 	'selector' => '{{SELECTOR}} .example-fontstyle2'
 )
 ```
