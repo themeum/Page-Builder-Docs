@@ -4,7 +4,7 @@ A Dimension Number Input Field
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (dimension)
 title | `optional` | String
 desc | `optional` | String
 responsive | `optional` | Boolean ( Default:false )
