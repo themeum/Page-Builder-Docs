@@ -18,7 +18,7 @@ Always return `object`
 ```php
 'addon_gradient' => array(
     'type' => 'gradient',
-    'title' => 'Gradient Field',
+    'title' => __('Gradient Field','your-textdomain'),
     'std' => array(
 		'bgFirst' => '#ff0000',
 		'bgSecond' => '#ffff00',
@@ -39,7 +39,7 @@ Always return `object`
 ### PHP
 Inside the `rander()` method
 ```php
-echo '<div>'.$settings["addon_gradient"]["bgFirst"].'</div>';
+echo '<div>'.$data['settings']["addon_gradient"]["bgFirst"].'</div>';
 ```
 
 ### JS Template
