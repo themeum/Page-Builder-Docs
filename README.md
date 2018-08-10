@@ -2,7 +2,7 @@
 Developer Documentation of Drag &amp; drop website builder for WordPress
 
 
-##Field Type of "WP Page Builder"
+## Field Type of "WP Page Builder"
 01. [Alignment](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Alignment.md) - Alignment Selector Field
 02. [Animation](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Animation.md) - Animation Input Field (wowjs)
 03. [Background](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Background.md) - Background Field
