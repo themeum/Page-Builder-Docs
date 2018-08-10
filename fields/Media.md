@@ -44,13 +44,13 @@ Not support 'selector' parameters.
 Inside the `rander()` method-
 **Single**
 ```php
-echo '<div>'.$settings['addon_media']['url'].'</div>';
-echo '<div>'.$settings['addon_media']['id'].'</div>';
+echo '<div>'.$data['settings']['addon_media']['url'].'</div>';
+echo '<div>'.$data['settings']['addon_media']['id'].'</div>';
 ```
 **Multiple**
 ```php
 echo '<div>';
-foreach( $settings['addon_media'] as $value) {
+foreach( $data['settings']['addon_media'] as $value) {
     echo $value['url'];
 }
 echo '</div>';
