@@ -48,8 +48,8 @@ class Custom_Addon{
         return array( 'script-name' ); 
     }
     public function get_enqueue_style(){
-			  return array( 'style-name' );
-		}
+	return array( 'style-name' );
+    }
     */
 
     // Textarea Settings Fields
