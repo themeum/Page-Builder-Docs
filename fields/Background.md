@@ -53,6 +53,7 @@ Support 'selector' parameters.
 Inside the `rander()` method
 ```php
 echo '<div>'.$data["settings"]["addon_background"]["bgColor"].'</div>';
+```
 
 ### JS Template
 Inside the `getTemplate()` method-
