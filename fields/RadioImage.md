@@ -23,7 +23,7 @@ Always return `string`
             'one' => plugin_dir_url( __FILE__ ).'icon1.png',
             'two' => plugin_dir_url( __FILE__ ).'icon2.png',
             'three' => plugin_dir_url( __FILE__ ).'icon3.png',
-		),
+	),
     'std' => 'two'
 )
 ```
