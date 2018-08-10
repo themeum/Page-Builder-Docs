@@ -4,7 +4,7 @@ A Font Styling Input Field (Full Settings)
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (fontstyle)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
@@ -16,7 +16,7 @@ Always return `object`
 ```php
 'addon_fontstyle' => array(
 	'type' => 'fontstyle',
-	'title' => 'Fontstyle Field',
+	'title' => __('Fontstyle Field','your-textdomain'),
 	'std' => array(
 		    'textDecoration' => 'underline',
 		    'fontStyle' => 'italic',
