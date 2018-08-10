@@ -4,7 +4,7 @@ A Border Input Field
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (textarea)
+type | `required` | Predefined String (border)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | String
@@ -15,7 +15,7 @@ Always return `object`
 
 ## Example
 ```php
-'widget_border' => array(
+'addon_border' => array(
     'type' => 'border',
     'title' => __('Border Field','your-textdomain'),
     'std' => array(
@@ -33,13 +33,13 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data['settings']['widget_border'].'</div>';
+echo '<div>'.$data['settings']['addon_border'].'</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
-<div>{{data.widget_border.borderWidth}}</div>
-<div>{{data.widget_border.borderStyle}}</div>
-<div>{{data.widget_border.borderColor}}</div>
+<div>{{data.addon_border.borderWidth}}</div>
+<div>{{data.addon_border.borderStyle}}</div>
+<div>{{data.addon_border.borderColor}}</div>
 ```
