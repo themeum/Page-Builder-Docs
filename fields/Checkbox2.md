@@ -9,10 +9,11 @@ type | `required` | Predefined String (checkbox2)
 title | `optional` | String
 desc | `optional` | String
 values | `optional` | Array
-std | `optional` | String
+multiple | `optional` | Boolean ( Default: false )
+std | `optional` | String( multiple: false ) or Array (multiple: false)
 
 ## Return
-return single `string` for not multiple  
+return single `string` single
 return `array` for the multiple
 
 ## Example
@@ -20,7 +21,7 @@ return `array` for the multiple
 ```php
 'addon_checkbox2' => array (
     'type' => 'checkbox2',
-    'title' => 'Checkbox2 Field',
+    'title' => __('Checkbox2 Field','your-textdomain'),
     'values' => array(
 		'10px' => 'Small Height',
 		'20px' => 'Medium Height',
