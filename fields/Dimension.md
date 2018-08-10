@@ -20,10 +20,10 @@ Always return `object`
 	'type' => 'dimension',
 	'title'	=> __('Dimension Field','your-textdomain'),
 	'std' => array(
-				'md' => array( 'top' => '10px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
-				'sm' => array( 'top' => '9px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
-				'xs' => array( 'top' => '7px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
-			),
+		'md' => array( 'top' => '10px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
+		'sm' => array( 'top' => '9px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
+		'xs' => array( 'top' => '7px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ),
+		),
 	'unit' => array( 'px','em','%' ),
 	'responsive' => true,
 	'selector' => '{{SELECTOR}} .example-dimension{ margin: {{data.addon_dimension}}; }'
