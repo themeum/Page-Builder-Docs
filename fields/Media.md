@@ -29,7 +29,7 @@ Not support 'selector' parameters.
 'addon_media' => array(
     'type' => 'media',
     'title' => __('Media Title','your-textdomain'),
-    'multiple' => true
+    'multiple' => true,
     'std' => array(
                 'http://example.com/example1.jpg',
                 'http://example.com/example2.jpg'
