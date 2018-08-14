@@ -63,6 +63,6 @@ Inside the `getTemplate()` method-
 <# _.forEach(data.repetable_check, function(value, key) { #>
     {{value.icon_list}}
     {{value.social_url}}
-<# } #>
+<# }) #>
 </div>
 ```
