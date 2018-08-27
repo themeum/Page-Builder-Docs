@@ -67,11 +67,11 @@ Inside the `rander()` method
 
 **Responsive**
 ```php
-foreach( $value["top"] as $key => $value ){
-    echo '<div>'.$value["top"].'</div>';
-    echo '<div>'.$value["right"].'</div>';
-    echo '<div>'.$value["bottom"].'</div>';
-    echo '<div>'.$value["left"].'</div>';
+foreach( $value["top"] as $key => $val ){
+    echo '<div>'.$val.'</div>';
+    echo '<div>'.$val.'</div>';
+    echo '<div>'.$val.'</div>';
+    echo '<div>'.$val.'</div>';
 }
 ```
 
