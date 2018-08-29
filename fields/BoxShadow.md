@@ -16,7 +16,7 @@ Always return `object`
 ```php
 'widget_boxshadow' => array(
 	'type' => 'boxshadow',
-	'title' => __('Boxshadow Field',your-textdomain'),
+	'title' => __('Boxshadow Field','your-textdomain'),
 	'std' => array(
 		    'shadowValue'=> array( 'top' => '120px', 'right' => '0px', 'bottom' => '0px', 'left' => '0px' ), 
 		    'shadowColor' 	=> '#ffffff' 
