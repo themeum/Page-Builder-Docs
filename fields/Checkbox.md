@@ -11,6 +11,7 @@ desc | `optional` | String
 values | `optional` | Array
 multiple | `optional` | Boolean ( Default: false )
 std | `optional` | String( multiple: false ) or Array (multiple: false)
+selector | `optional` | String / Array
 
 ## Return
 return single `string` single  
@@ -54,7 +55,7 @@ Support 'selector' parameters.
 Inside the `rander()` method-
 ```php
 echo '<div>'.$data['settings']['addon_checkbox'].'</div>';
-
+<div class="example-checkbox">Example Checkbox</div>
 ```
 
 **Multiple**
@@ -72,7 +73,7 @@ Inside the `getTemplate()` method-
 **Single**
 ```js
 <div>{{data.addon_checkbox}}</div>
-
+<div class="example-checkbox">Example Checkbox</div>
 ```
 
 **Multiple**
@@ -82,5 +83,4 @@ Inside the `getTemplate()` method-
     {{value}}
 <# } #>
 </div>
-
 ```
