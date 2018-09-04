@@ -40,7 +40,7 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 
 [Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in field type.
 
-## Thirdparty Block & Layout
+## Adding Thirdparty Blocks & Layouts
 Add Extra [Block And Layout](https://github.com/themeum/WP-Page-Builder/blob/master/block_and_layout.md) from theme or plugins.
 
 ## Icon List
