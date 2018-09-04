@@ -4,10 +4,6 @@ Developer Documentation of Drag &amp; drop website builder for WordPress
 ## Create a Custom Addon
 Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addon/CustomAddon.md) from scratch.
 
-[Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
-Add Extra [Block And Layout](https://github.com/themeum/WP-Page-Builder/blob/master/block_and_layout.md) from theme or plugins.
-Conditional field type [Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in pagebuilder.
-[Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in fieldtype.
 
 ## Field Type
 01. [Alignment](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Alignment.md) - Alignment Selector Field
@@ -37,6 +33,16 @@ Conditional field type [Depends](https://github.com/themeum/WP-Page-Builder/blob
 25. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
 26. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
 
+## Field Type Helper
+#### Selector
+[Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
+#### Depends
+Conditional field type [Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in pagebuilder.
+#### Section And Tab
+[Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in fieldtype.
+
+## Thirdparty Block & Layout
+Add Extra [Block And Layout](https://github.com/themeum/WP-Page-Builder/blob/master/block_and_layout.md) from theme or plugins.
 
 ## Icon List
 [Icon](https://builder.themeum.com/wppbicon/) - WPPB Default Icon List 
