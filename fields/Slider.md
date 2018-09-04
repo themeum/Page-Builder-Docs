@@ -12,7 +12,7 @@ range | `optional` | Array
 responsive | `optional` | Boolean ( Default: false )
 range | `optional` | Array ( See Example  )
 std | `optional` | String
-selector | `optional` | String Input
+selector | `optional` | String / Array
 
 ## Return
 return `Number` for responsive false.  
