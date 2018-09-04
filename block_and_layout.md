@@ -1,10 +1,10 @@
 
 # Block And Layout
-*WP Page Builder* supports thirdparty block and layout inside the "Blocks" and "Layouts" menu. 
-It is very easy to add custom block or layout from the plugin or theme.
+*WP Page Builder* supports third-party blocks and layouts. 
+It is very easy to add a custom block or layout via a plugin or theme.
 
-## Block add
-Firstly, you have to create a block using *WP Page Builder* and export it.
+## Adding a Custom Block
+Firstly, you need to create a block using *WP Page Builder* and export it.
 Secondly, add this via `wppb_add_block` filter.
 
 ### Example
@@ -20,10 +20,10 @@ function prefix_add_block_callback( $blocks ){
 }
 add_filter('wppb_add_block', 'prefix_add_block_callback');
 ```
-*Note:* All the field is required for the block.
+*Note:* All the fields are required.
 
-## Layout add
-Firstly, you have to create a Layout using *WP Page Builder* and export it.
+## Adding a Custom Layout
+Firstly, you need to create a layout using *WP Page Builder* and export it.
 Secondly, add this via `wppb_add_layout` filter.
 
 ### Example
@@ -53,4 +53,4 @@ function prefix_add_layout_callback( $layouts ){
 }
 add_filter('wppb_add_layout', 'prefix_add_layout_callback');
 ```
-*Note:* All the field is required for the layout.
+*Note:* All the fields are required.
