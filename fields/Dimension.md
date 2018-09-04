@@ -9,6 +9,7 @@ title | `optional` | String
 desc | `optional` | String
 responsive | `optional` | Boolean ( Default:false )
 std | `optional` | Array
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
@@ -73,6 +74,7 @@ foreach( $value as $key => $val ){
     echo '<div>'.$val["bottom"].'</div>';
     echo '<div>'.$val["left"].'</div>';
 }
+echo '<div class="example-dimension">Example Dimension</div>';
 ```
 
 **Not Responsive**
@@ -81,6 +83,7 @@ echo '<div>'.$data["settings"]["addon_dimension"]["top"].'</div>';
 echo '<div>'.$data["settings"]["addon_dimension"]["right"].'</div>';
 echo '<div>'.$data["settings"]["addon_dimension"]["bottom"].'</div>';
 echo '<div>'.$data["settings"]["addon_dimension"]["left"].'</div>';
+echo '<div class="example-dimension">Example Dimension</div>';
 ```
 
 **Not Responsive Without Unit**
@@ -104,11 +107,13 @@ Inside the `getTemplate()` method-
     {{value.left}}
 <# } #>
 </div>
+<div class="example-dimension">Example Dimension</div>
 ```
 
 **Not Responsive**
 ```js
 <div>{{data.addon_dimension}}</div>
+<div class="example-dimension">Example Dimension</div>
 ```
 
 **Not Responsive Without Unit**
