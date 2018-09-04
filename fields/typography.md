@@ -4,7 +4,7 @@ A Typography Styling Input Field (Simple Settings)
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (fontstyle2)
+type | `required` | Predefined String (typography)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
