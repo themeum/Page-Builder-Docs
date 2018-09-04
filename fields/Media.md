@@ -12,6 +12,8 @@ title | `optional` | String
 desc | `optional` | String
 multiple | `optional` | Boolean ( Default: false )
 std | `optional` | String
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Example
 **Single**
