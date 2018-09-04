@@ -26,7 +26,7 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-'<div>'.$data['settings']['addon_alignment'].'</div>';
+'<div>'.$data["settings"]["addon_alignment"].'</div>';
 ```
 
 ### JS Template
