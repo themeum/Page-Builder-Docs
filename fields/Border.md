@@ -42,7 +42,7 @@ echo '<div class="example-border">Example Border</div>';
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
-<div>{{data.addon_border.borderWidth}}</div>
+<div>{{data.addon_border.borderWidth.top}}</div>
 <div>{{data.addon_border.borderStyle}}</div>
 <div>{{data.addon_border.borderColor}}</div>
 <div class="example-border">Example Border</div>
