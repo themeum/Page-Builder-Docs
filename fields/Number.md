@@ -13,6 +13,7 @@ responsive | `optional` | Boolean ( Default: false )
 range | `optional` | Array ( See Example  )
 placeholder | `optional` | String
 std | `optional` | String for not responsive / Array for responsive 
+selector | `optional` | String / Array
 
 
 ## Return
@@ -94,11 +95,14 @@ Inside the `rander()` method-
 echo '<div>'.$settings['addon_number']['md'].'</div>';
 echo '<div>'.$settings['addon_number']['sm'].'</div>';
 echo '<div>'.$settings['addon_number']['xs'].'</div>';
+echo '<div class="example-slider">Example Slider</div>';
+
 ```
 
 **Not Responsive** 
 ```php
 echo '<div>'.$settings['addon_number'].'</div>';
+echo '<div class="example-slider">Example Slider</div>';
 ```
 
 ### JS Template
@@ -109,7 +113,7 @@ Inside the `getTemplate()` method-
 <div>{{data.addon_number.md}}</div>
 <div>{{data.addon_number.sm}}</div>
 <div>{{data.addon_number.xs}}</div>
-
+<div class="example-slider">Example Slider</div>
 ```
 Or
 ```js
@@ -118,11 +122,11 @@ Or
     {{value}}
 <# } #>
 </div>
-
+<div class="example-slider">Example Slider</div>
 ```
 
 **Not Responsive** 
 ```js
 <div>{{data.addon_number}}</div>
-
+<div class="example-slider">Example Slider</div>
 ```
