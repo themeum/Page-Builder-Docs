@@ -9,6 +9,7 @@ title | `optional` | String
 desc | `optional` | String
 video | `optional` | Boolean ( Video BG only return Data )
 std | `optional` | String
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
@@ -53,10 +54,12 @@ Support 'selector' parameters.
 Inside the `rander()` method
 ```php
 echo '<div>'.$data["settings"]["addon_background"]["bgColor"].'</div>';
+echo '<div class="example-background">Example Background</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
 <div>{{data.addon_background.bgColor}}</div>
+<div class="example-background">Example Background</div>
 ```
