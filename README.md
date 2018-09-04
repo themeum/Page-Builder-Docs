@@ -35,7 +35,9 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 
 ## Field Type Helpers
 [Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
+
 [Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in field type.
+
 [Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in field type.
 
 ## Thirdparty Block & Layout
