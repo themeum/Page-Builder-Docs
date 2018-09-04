@@ -9,13 +9,14 @@ title | `optional` | String
 desc | `optional` | String
 opacity | `optional` | Boolean ( Default: false )
 std | `optional` | String
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
 
 ## Example
 ```php
-'widget_background2' => array(
+'addon_background2' => array(
     'type' => 'background2',
     'title' => __('Background Field','your-textdomain'),
     'opacity' => true,
@@ -52,10 +53,12 @@ Support 'selector' parameters.
 Inside the `rander()` method
 ```php
 echo '<div>'.$data["settings"]["addon_background2"]["bgColor"].'</div>';
+echo '<div class="example-background2">Example Background2</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
 <div>{{data.addon_background2.bgColor}}</div>
+<div class="example-background2">Example Background2</div>
 ```
