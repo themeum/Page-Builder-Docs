@@ -11,6 +11,8 @@ desc | `optional` | String
 clip | `optional` | Boolean ( Default: false )
 std | `optional` | Array
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
