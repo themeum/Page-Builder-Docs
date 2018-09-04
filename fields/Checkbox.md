@@ -12,6 +12,8 @@ values | `optional` | Array
 multiple | `optional` | Boolean ( Default: false )
 std | `optional` | String( multiple: false ) or Array (multiple: false)
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 return single `string` single  
