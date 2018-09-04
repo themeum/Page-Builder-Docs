@@ -8,7 +8,7 @@ type | `required` | Predefined String (border)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
-selector | `optional` | String
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
@@ -33,7 +33,9 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data['settings']['addon_border'].'</div>';
+echo '<div>'.$data["settings"]["addon_border."]["borderStyle"].'</div>';
+echo '<div>'.$data["settings"]["addon_border."]["borderColor"].'</div>';
+echo '<div class="example-border">Example Border</div>';
 ```
 
 ### JS Template
@@ -42,4 +44,5 @@ Inside the `getTemplate()` method-
 <div>{{data.addon_border.borderWidth}}</div>
 <div>{{data.addon_border.borderStyle}}</div>
 <div>{{data.addon_border.borderColor}}</div>
+<div class="example-border">Example Border</div>
 ```
