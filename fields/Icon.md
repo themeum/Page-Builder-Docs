@@ -28,7 +28,7 @@ Not support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div><i class="'.$data['settings']['addon_icon'].'"></i></div>';
+echo '<div><i class="'.$data["settings"]["addon_icon"].'"></i></div>';
 ```
 
 ### JS Template
