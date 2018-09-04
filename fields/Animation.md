@@ -8,6 +8,8 @@ type | `required` | Predefined String (textarea)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
