@@ -10,6 +10,8 @@ title | `optional` | String
 desc | `optional` | String
 std | `optional` | String
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `string`
