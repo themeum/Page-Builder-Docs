@@ -4,7 +4,7 @@ Most of the field types support the selector parameters.
 
 `{{SELECTOR}}` is replaced by the unique addon class.
 
-`data.*field_key*` is replaced by the value of the field.
+`data.field_key` is replaced by the value of the field.
 
 ### Single selector
 ```php
