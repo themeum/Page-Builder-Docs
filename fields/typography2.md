@@ -35,10 +35,12 @@ Support 'selector' parameters.
 Inside the `rander()` method-
 ```php
 echo '<div>'.$data['settings']['addon_typography2']['fontStyle'].'</div>';
+echo '<div class="example-fontstyle">Example Fontstyle</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
 <div>{{data.addon_typography2.fontStyle}}</div>
+<div class="example-fontstyle">Example Fontstyle</div>
 ```
