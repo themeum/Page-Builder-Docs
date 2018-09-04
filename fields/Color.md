@@ -10,6 +10,8 @@ desc | `optional` | String
 placeholder | `optional` | String
 std | `optional` | String ( Color Code )
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `string` (Color HEX code)
