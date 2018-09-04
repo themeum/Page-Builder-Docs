@@ -1,22 +1,23 @@
-# Fontstyle 
-A Font Styling Input Field (Full Settings)
+# Typography2 
+A Typography Styling Input Field (Full Settings)
 
 ## Parameters
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (fontstyle)
+type | `required` | Predefined String (typography2)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
 
 ## Example
 ```php
-'addon_fontstyle' => array(
-	'type' => 'fontstyle',
-	'title' => __('Fontstyle Field','your-textdomain'),
+'addon_typography2' => array(
+	'type' => 'typography2',
+	'title' => __('Typography2 Field','your-textdomain'),
 	'std' => array(
 		    'textDecoration' => 'underline',
 		    'fontStyle' => 'italic',
@@ -33,11 +34,11 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data['settings']['addon_fontstyle']['fontStyle'].'</div>';
+echo '<div>'.$data['settings']['addon_typography2']['fontStyle'].'</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
-<div>{{data.addon_fontstyle.fontStyle}}</div>
+<div>{{data.addon_typography2.fontStyle}}</div>
 ```
