@@ -1,7 +1,7 @@
 # Section & Tab
-If you want to display the field type in `style` Tab then add `'tab' => 'style'` in parameters.
+If you want to display the field type in the `style` Tab, then add `'tab' => 'style'` in parameters.
  
-If you do not use `section` then field automatically goes to `General` section. If you use `section` then it's goes to specific section. 
+If you do not use `section` then the field automatically goes to the `General` section. If you use `section` then it goes to that specific section. 
 
 ### Tab without section
 ```php
