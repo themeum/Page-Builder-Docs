@@ -7,6 +7,8 @@ type | `required` | Predefined String (switch)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Number ( 0 or 1 )
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 return `0` or `1`
