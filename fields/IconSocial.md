@@ -9,6 +9,8 @@ type | `required` | Predefined String (iconsocial)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | String
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `string`
