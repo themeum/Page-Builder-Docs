@@ -10,6 +10,7 @@ title | `optional` | String
 desc | `optional` | String
 clip | `optional` | Boolean ( Default: false )
 std | `optional` | Array
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
@@ -40,6 +41,7 @@ Always return `object`
 Inside the `rander()` method
 ```php
 echo '<div>'.$data['settings']["addon_gradient"]["bgFirst"].'</div>';
+echo '<div class="example-gradient">Example Gradient</div>';
 ```
 
 ### JS Template
@@ -47,4 +49,5 @@ Inside the `getTemplate()` method-
 ```js
 <div>{{data.addon_gradient.bgFirst}}</div>
 <div>{{data.addon_gradient.bgSecond}}</div>
+<div class="example-gradient">Example Gradient</div>
 ```
