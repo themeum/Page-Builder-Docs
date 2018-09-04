@@ -4,6 +4,10 @@ Developer Documentation of Drag &amp; drop website builder for WordPress
 ## Create a Custom Addon
 Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/addon/CustomAddon.md) from scratch.
 
+[Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
+Add Extra [Block And Layout](https://github.com/themeum/WP-Page-Builder/blob/master/block_and_layout.md) from theme or plugins.
+Conditional field type [Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in pagebuilder.
+[Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in fieldtype.
 
 ## Field Type
 01. [Alignment](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Alignment.md) - Alignment Selector Field
