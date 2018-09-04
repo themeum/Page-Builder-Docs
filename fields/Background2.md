@@ -10,6 +10,8 @@ desc | `optional` | String
 opacity | `optional` | Boolean ( Default: false )
 std | `optional` | String
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
