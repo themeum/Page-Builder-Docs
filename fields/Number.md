@@ -14,6 +14,8 @@ range | `optional` | Array ( See Example  )
 placeholder | `optional` | String
 std | `optional` | String for not responsive / Array for responsive 
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 
 ## Return
