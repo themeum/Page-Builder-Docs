@@ -8,6 +8,8 @@ type | `required` | Predefined String (editor)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | String
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Return `string` (wysiwyg editor output)
