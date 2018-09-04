@@ -1,11 +1,11 @@
 # Depends
 
-Sometimes you need conditional field in your addon.
+Sometimes you may need a conditional field in your addon.
 
-WP Page Builder has support `!=` and `=` conditional key.
+WP Page Builder supports `!=` and `=` conditional keys.
 
 ### Single condition
-`Button Color` field show when `Button Style` value is `primary`
+`Button Color` field shows when `Button Style` value is `primary`
 ```php
 'button_style' => array(
     'type' => 'select',
@@ -24,8 +24,8 @@ WP Page Builder has support `!=` and `=` conditional key.
 ),
 ```
 
-### Multiple condition
-`Button Color` field show when `Button Style` value is `primary` or `info`
+### Multiple conditions
+`Button Color` field shows when `Button Style` value is `primary` or `info`
 ```php
 'button_style' => array(
     'type' => 'select',
@@ -44,8 +44,8 @@ WP Page Builder has support `!=` and `=` conditional key.
 ),
 ```
 
-### Multiple condition in multiple field
-`Button Color` field show when `Button Style` value is `primary` and `Button Type` value is `solid`
+### Multiple conditions in multiple fields
+`Button Color` field shows when `Button Style` value is `primary` and `Button Type` value is `solid`
 ```php
 'button_style' => array(
     'type' => 'select',
@@ -77,7 +77,7 @@ WP Page Builder has support `!=` and `=` conditional key.
 ```
 
 ### Single condition not equal
-`Button Color` field show when `Button Style` value is not equal `primary`
+`Button Color` field shows when `Button Style` value is not equal `primary`
 ```php
 'button_style' => array(
     'type' => 'select',
