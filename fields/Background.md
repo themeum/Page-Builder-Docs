@@ -10,6 +10,8 @@ desc | `optional` | String
 video | `optional` | Boolean ( Video BG only return Data )
 std | `optional` | String
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
