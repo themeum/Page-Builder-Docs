@@ -1,5 +1,5 @@
-# Fontstyle2
-A Font Styling Input Field (Simple Settings)
+# typography
+A Typography Styling Input Field (Simple Settings)
 
 ## Parameters
 Parameter | Type | Value
@@ -8,14 +8,15 @@ type | `required` | Predefined String (fontstyle2)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Array
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
 
 ## Example
 ```php
-'data_fontstyle2' => array(
-	'type' => 'fontstyle2',
+'data_typography' => array(
+	'type' => 'typography',
 	'title' => __('Fontstyle2 Field','your-textdomain'),
 	'std' => array(
 		'fontFamily' 	=> '', // Google Font name
@@ -26,7 +27,7 @@ Always return `object`
 		'fontStyle' 	=> '', //normal, italic, oblique
 		'letterSpacing' => [ 'md'=>'0px', 'sm'=>'0px', 'xs'=>'0px' ],  // 0 to 20
 		),
-	'selector' => '{{SELECTOR}} .example-fontstyle2'
+	'selector' => '{{SELECTOR}} .example-typography'
 )
 ```
 Support 'selector' parameters.
@@ -36,17 +37,18 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data["settings"]["data_fontstyle2"]["fontFamily"].'</div>';
+echo '<div>'.$data["settings"]["data_typography"]["fontFamily"].'</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
-<div>{{data.data_fontstyle2.fontFamily}}</div>
-<div>{{data.data_fontstyle2.fontSize}}</div>
-<div>{{data.data_fontstyle2.lineHeight}}</div>
-<div>{{data.data_fontstyle2.fontWeight}}</div>
-<div>{{data.data_fontstyle2.textTransform}}</div>
-<div>{{data.data_fontstyle2.fontStyle}}</div>
-<div>{{data.data_fontstyle2.letterSpacing}}</div>
+<div>{{data.data_typography.fontFamily}}</div>
+<div>{{data.data_typography.fontSize}}</div>
+<div>{{data.data_typography.lineHeight}}</div>
+<div>{{data.data_typography.fontWeight}}</div>
+<div>{{data.data_typography.textTransform}}</div>
+<div>{{data.data_typography.fontStyle}}</div>
+<div>{{data.data_typography.letterSpacing}}</div>
+<div class="example-typography">Typography Example</div>
 ```
