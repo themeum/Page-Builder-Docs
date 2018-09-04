@@ -33,6 +33,7 @@ Support 'selector' parameters.
 ### PHP
 Inside the `rander()` method-
 ```php
+echo '<div>'.$data["settings"]["addon_border."]["borderWidth"]["top"].'</div>';
 echo '<div>'.$data["settings"]["addon_border."]["borderStyle"].'</div>';
 echo '<div>'.$data["settings"]["addon_border."]["borderColor"].'</div>';
 echo '<div class="example-border">Example Border</div>';
