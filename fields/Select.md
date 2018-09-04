@@ -12,6 +12,8 @@ placeholder | `optional` | String
 multiple | `optional` | Boolean ( Default: false )
 responsive | `optional` | Boolean ( Default: false )
 std | `optional` | String (for multiple:false ) / Array (for multiple:true )
+tab | `optional` | String(style)
+section | `optional` | String
 
 
 ## Return
