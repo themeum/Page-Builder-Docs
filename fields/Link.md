@@ -9,6 +9,7 @@ title | `optional` | String
 placeholder | `optional` | String
 desc | `optional` | String / Array
 std | `optional` | Array
+selector | `optional` | String / Array
 
 ## Return
 Always return `object`
