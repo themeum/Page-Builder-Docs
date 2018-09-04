@@ -11,6 +11,8 @@ title | `optional` | String
 desc | `optional` | String
 placeholder | `optional` | String
 std | `optional` | String
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `string`
