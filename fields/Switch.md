@@ -1,5 +1,5 @@
 # Number
-A Single Checkbox Input Field
+A Single Switch Input Field
 
 Parameter | Type | Value
 --- | --- | ---
@@ -13,9 +13,9 @@ return `0` or `1`
 
 ## Example
 ```php
-'addon_checkbox' => array(
-    'type' => 'checkbox',
-    'title' => __('Checkbox Field','your-textdomain'),
+'addon_switch' => array(
+    'type' => 'switch',
+    'title' => __('Switch Field','your-textdomain'),
     'std' => 0
 )
 ```
@@ -26,7 +26,7 @@ Support 'selector' parameters but their is no need to use `selector`
 ### PHP
 Inside the `rander()` method-
 ```php
-echo '<div>'.$data['settings']['addon_checkbox'].'</div>';
+echo '<div>'.$data['settings']['addon_switch'].'</div>';
 ```
 
 ### JS Template
@@ -34,5 +34,5 @@ Inside the `getTemplate()` method-
 
 **Single**
 ```js
-<div>{{data.addon_checkbox}}</div>
+<div>{{data.addon_switch}}</div>
 ```
