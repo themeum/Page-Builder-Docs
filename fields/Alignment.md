@@ -7,7 +7,7 @@ Parameter | Type | Value
 type | `required` | Predefined String (alignment)
 title | `optional` | String
 desc | `optional` | String
-selector | `optional` | Boolean ( Default: false )
+selector | `optional` | String / Array
 std | `optional` | String
 
 ## Example
