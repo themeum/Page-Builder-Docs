@@ -9,7 +9,7 @@ type | `required` | Predefined String (radioimage)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | String
-selector | `optional` | String
+selector | `optional` | String / Array
 
 ## Return
 Always return `string`
