@@ -40,7 +40,7 @@ Always return `object`
 ### PHP
 Inside the `rander()` method
 ```php
-echo '<div>'.$data['settings']["addon_gradient"]["bgFirst"].'</div>';
+echo '<div>'.$data["settings"]["addon_gradient"]["bgFirst"].'</div>';
 echo '<div class="example-gradient">Example Gradient</div>';
 ```
 
