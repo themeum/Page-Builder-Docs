@@ -33,13 +33,10 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 25. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
 26. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
 
-## Field Type Helper
-#### Selector
+## Field Type Helpers
 [Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
-#### Depends
-Conditional field type [Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in pagebuilder.
-#### Section And Tab
-[Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in fieldtype.
+[Depends](https://github.com/themeum/WP-Page-Builder/blob/master/depends.md) in field type.
+[Section & Tab](https://github.com/themeum/WP-Page-Builder/blob/master/section_and_tab.md) in field type.
 
 ## Thirdparty Block & Layout
 Add Extra [Block And Layout](https://github.com/themeum/WP-Page-Builder/blob/master/block_and_layout.md) from theme or plugins.
