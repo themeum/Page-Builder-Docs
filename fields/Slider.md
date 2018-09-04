@@ -13,6 +13,8 @@ responsive | `optional` | Boolean ( Default: false )
 range | `optional` | Array ( See Example  )
 std | `optional` | String
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 return `Number` for responsive false.  
