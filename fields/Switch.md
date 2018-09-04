@@ -1,9 +1,9 @@
-# Number
+# Switch
 A Single Switch Input Field
 
 Parameter | Type | Value
 --- | --- | ---
-type | `required` | Predefined String (checkbox)
+type | `required` | Predefined String (switch)
 title | `optional` | String
 desc | `optional` | String
 std | `optional` | Number ( 0 or 1 )
