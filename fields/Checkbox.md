@@ -28,7 +28,7 @@ return `array` for the multiple
 		'40px' => 'Large height'
 	    ),
     'std' => '20px',
-    'selector'	=> '{{SELECTOR}} .example-checkbox{{data.addon_checkbox}}'
+    'selector'	=> '{{SELECTOR}} .example-checkbox{ margin-left:{{data.addon_checkbox}}; }'
 )
 ```
 Support 'selector' parameters.
