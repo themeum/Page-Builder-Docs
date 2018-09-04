@@ -38,6 +38,7 @@ Support 'selector' parameters.
 Inside the `rander()` method-
 ```php
 echo '<div>'.$data["settings"]["data_typography"]["fontFamily"].'</div>';
+echo '<div class="example-typography">Typography Example</div>';
 ```
 
 ### JS Template
