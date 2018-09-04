@@ -10,6 +10,8 @@ desc | `optional` | String
 placeholder | `optional` | String
 std | `optional` | String
 selector | `optional` | String (better not to use)
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `string`
