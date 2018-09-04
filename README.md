@@ -13,7 +13,7 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 05. [Border](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Border.md) - Border Input Field
 06. [BoxShadow](https://github.com/themeum/WP-Page-Builder/blob/master/fields/BoxShadow.md) - Box Shadow input field
 07. [Switch](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Switch.md) - Single Checkbox Input Field 
-08. [Checkbox2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Checkbox2.md) - Multiple Checkbox Input Field
+08. [Checkbox](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Checkbox.md) - Multiple Checkbox Input Field
 09. [Color](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Color.md) - Color Input Field
 10. [Dimension](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Dimension.md) - Dimension Number Input Field 
 11. [Editor](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Editor.md) - WordPress Default wysiwyg Editor Field
