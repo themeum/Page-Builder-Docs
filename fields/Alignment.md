@@ -1,5 +1,5 @@
 # Alignment
-An Alignment Selector Field
+An Alignment Field
 
 ## Parameters
 Parameter | Type | Value
@@ -7,8 +7,8 @@ Parameter | Type | Value
 type | `required` | Predefined String (alignment)
 title | `optional` | String
 desc | `optional` | String
-selector | `optional` | String / Array
 std | `optional` | String
+selector | `optional` | String / Array
 
 ## Example
 ```php
@@ -27,10 +27,12 @@ Support 'selector' parameters.
 Inside the `rander()` method-
 ```php
 echo '<div>'.$data["settings"]["addon_alignment"].'</div>';
+echo '<div class="example-alignment">Alignment Check</div>';
 ```
 
 ### JS Template
 Inside the `getTemplate()` method-
 ```js
 <div>{{data.addon_alignment}}</div>
+<div class="example-alignment">Alignment Check</div>
 ```
