@@ -17,8 +17,8 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 09. [Color](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Color.md) - Color Input Field
 10. [Dimension](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Dimension.md) - Dimension Number Input Field 
 11. [Editor](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Editor.md) - WordPress Default wysiwyg Editor Field
-12. [Fontstyle](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Fontstyle.md) - Font Styling Input Field (Simple Settings)
-13. [Fontstyle2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Fontstyle2.md) - Font Styling Input Field (Full Settings)
+12. [Typography2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography2.md) - Font Styling Input Field (Simple Settings)
+13. [Typography](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography.md) - Font Styling Input Field (Full Settings)
 14. [Gradient](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Gradient.md) - Gradient Color Input Field
 15. [Icon](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Icon.md) - Icon select field (font awesome & Icofont)
 16. [IconSocial](https://github.com/themeum/WP-Page-Builder/blob/master/fields/IconSocial.md) - Only social icon field
