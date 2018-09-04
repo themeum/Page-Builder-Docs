@@ -10,6 +10,8 @@ placeholder | `optional` | String
 desc | `optional` | String / Array
 std | `optional` | Array
 selector | `optional` | String / Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
