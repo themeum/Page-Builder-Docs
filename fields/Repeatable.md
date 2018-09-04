@@ -9,6 +9,8 @@ title | `optional` | String
 desc | `optional` | String
 attr | `optional` | Array
 std | `optional` | Array
+tab | `optional` | String(style)
+section | `optional` | String
 
 ## Return
 Always return `object`
