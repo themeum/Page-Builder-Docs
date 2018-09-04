@@ -21,7 +21,7 @@ section | `optional` | String
 'addon_media' => array(
     'type' => 'media',
     'title' => __('Media Title','your-textdomain'),
-    'std' => 'http://example.com/example1.jpg', 
+    'std' => array( 'url' => 'http://example.com/example1.jpg')
 )
 ```
 Not support 'selector' parameters.
@@ -33,9 +33,9 @@ Not support 'selector' parameters.
     'title' => __('Media Title','your-textdomain'),
     'multiple' => true,
     'std' => array(
-                'http://example.com/example1.jpg',
-                'http://example.com/example2.jpg'
-            ),
+        array( 'url' => 'http://example.com/example1.jpg'),
+        array( 'url' => 'http://example.com/example2.jpg')
+    )
 )
 ```
 Not support 'selector' parameters.
