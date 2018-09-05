@@ -15,12 +15,13 @@ function prefix_add_block_callback( $blocks ){
 		'file' => plugin_dir_path( __FILE__ ).'test.json', // JSON export file directory path
 		'banner' => 'https://builder.themeum.com/wp-content/uploads/2018/07/Content-1.png', // Banner Image URL
 		'section' => 'Section Name', // Section Name
+		'liveUrl' => 'https://builder.themeum.com/call-to-action-item-1/' //
 	);
 	return $blocks;
 }
 add_filter('wppb_add_block', 'prefix_add_block_callback');
 ```
-*Note:* All the fields are required.
+*Note:* All the fields are required except `liveUrl`.
 
 ## Adding a Custom Layout
 Firstly, you need to create a layout using *WP Page Builder* and export it.
@@ -40,12 +41,14 @@ function prefix_add_layout_callback( $layouts ){
 					'preview' => 'https://builder.themeum.com/wp-content/uploads/2018/07/Content-1.png', // Preview in Inner
 					'preview2x' => 'https://builder.themeum.com/wp-content/uploads/2018/07/Pricing-table-1.png', // Preview in Inner 2x
 					'file' => plugin_dir_path( __FILE__ ).'template1.json', // File path of the Export JSON
+					'liveUrl' => 'https://builder.themeum.com/agency-home/'
 				),
 				array(
 					'name' => 'EAbout',
 					'preview' => 'https://builder.themeum.com/wp-content/uploads/2018/07/Content-1.png',
 					'preview2x' => 'https://builder.themeum.com/wp-content/uploads/2018/07/Pricing-table-1.png',
 					'file' => plugin_dir_path( __FILE__ ).'template2.json',
+					'liveUrl' => 'https://builder.themeum.com/agency-home/'
 				)
 		)
 	);
@@ -53,4 +56,4 @@ function prefix_add_layout_callback( $layouts ){
 }
 add_filter('wppb_add_layout', 'prefix_add_layout_callback');
 ```
-*Note:* All the fields are required.
+*Note:* All the fields are required except `liveUrl`.
