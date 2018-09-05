@@ -21,7 +21,7 @@ function prefix_add_block_callback( $blocks ){
 }
 add_filter('wppb_add_block', 'prefix_add_block_callback');
 ```
-*Note:* All the fields are required except `liveUrl`.
+*Note:* All the fields are required except `liveurl`.
 
 ## Adding a Custom Layout
 Firstly, you need to create a layout using *WP Page Builder* and export it.
@@ -56,4 +56,4 @@ function prefix_add_layout_callback( $layouts ){
 }
 add_filter('wppb_add_layout', 'prefix_add_layout_callback');
 ```
-*Note:* All the fields are required except `liveUrl`.
+*Note:* All the fields are required except `liveurl`.
