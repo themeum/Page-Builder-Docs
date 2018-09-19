@@ -15,23 +15,24 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 07. [Switch](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Switch.md) - Single Checkbox Input Field 
 08. [Checkbox](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Checkbox.md) - Multiple Checkbox Input Field
 09. [Color](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Color.md) - Color Input Field
-10. [Dimension](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Dimension.md) - Dimension Number Input Field 
-11. [Editor](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Editor.md) - WordPress Default wysiwyg Editor Field
-12. [Typography2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography2.md) - Font Styling Input Field (Simple Settings)
-13. [Typography](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography.md) - Font Styling Input Field (Full Settings)
-14. [Gradient](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Gradient.md) - Gradient Color Input Field
-15. [Icon](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Icon.md) - Icon select field (font awesome & Icofont)
-16. [IconSocial](https://github.com/themeum/WP-Page-Builder/blob/master/fields/IconSocial.md) - Only social icon field
-17. [Link](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Link.md) - Link Input Field
-18. [Media](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Media.md) - WordPress Media Manager Field
-19. [Number](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Number.md) - Number Input Field
-20. [RadioImage](https://github.com/themeum/WP-Page-Builder/blob/master/fields/RadioImage.md) - Radio Image Input Field
-21. [Repeatable](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Repeatable.md) - Repeatable Group Element Field
-22. [Select](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Select.md) - Select Field
-23. [Separator](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Separator.md) - Separator Field
-24. [Slider](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Slider.md) - Draggable Number input Field
-25. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
-26. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
+10. [Color2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Color2.md) - Color and Gradient Input field
+11. [Dimension](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Dimension.md) - Dimension Number Input Field 
+12. [Editor](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Editor.md) - WordPress Default wysiwyg Editor Field
+13. [Typography2](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography2.md) - Font Styling Input Field (Simple Settings)
+14. [Typography](https://github.com/themeum/WP-Page-Builder/blob/master/fields/typography.md) - Font Styling Input Field (Full Settings)
+15. [Gradient](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Gradient.md) - Gradient Color Input Field
+16. [Icon](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Icon.md) - Icon select field (font awesome & Icofont)
+17. [IconSocial](https://github.com/themeum/WP-Page-Builder/blob/master/fields/IconSocial.md) - Only social icon field
+18. [Link](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Link.md) - Link Input Field
+19. [Media](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Media.md) - WordPress Media Manager Field
+20. [Number](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Number.md) - Number Input Field
+21. [RadioImage](https://github.com/themeum/WP-Page-Builder/blob/master/fields/RadioImage.md) - Radio Image Input Field
+22. [Repeatable](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Repeatable.md) - Repeatable Group Element Field
+23. [Select](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Select.md) - Select Field
+24. [Separator](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Separator.md) - Separator Field
+25. [Slider](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Slider.md) - Draggable Number input Field
+26. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
+27. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
 
 ## Field Type Helpers
 [Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
