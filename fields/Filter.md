@@ -18,14 +18,14 @@ Always return `object` (Color HEX code)
     'type' => 'filter',
     'title' => 'Filter Field',
     'std' => array(
-					'brightness' => '100%',
-					'contrast' => '100%',
-					'grayscale' => '100%',
-					'invert' => '100%',
-					'huerotate' => '100deg',
-					'saturate' => '100%',
-					'sepia' => '100%',
-		),
+		'brightness' => '100%',
+		'contrast' => '100%',
+		'grayscale' => '100%',
+		'invert' => '100%',
+		'huerotate' => '100deg',
+		'saturate' => '100%',
+		'sepia' => '100%',
+	),
     'selector' => '{{SELECTOR}} .example-filter'
 )
 ```
