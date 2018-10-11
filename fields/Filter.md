@@ -6,7 +6,7 @@ Parameter | Type | Value
 type | `required` | Predefined String (filter)
 title | `optional` | String
 desc | `optional` | String
-std | `optional` | Object ( Color Code )
+std | `optional` | Object
 selector | `optional` | String / Array
 tab | `optional` | String(style)
 section | `optional` | String
