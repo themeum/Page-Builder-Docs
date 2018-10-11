@@ -33,6 +33,7 @@ Create a [Custom Addon](https://github.com/themeum/WP-Page-Builder/blob/master/a
 25. [Slider](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Slider.md) - Draggable Number input Field
 26. [Text](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Text.md) - Text Input Field
 27. [TextArea](https://github.com/themeum/WP-Page-Builder/blob/master/fields/TextArea.md) - Textarea Input Field
+28. [Filter](https://github.com/themeum/WP-Page-Builder/blob/master/fields/Filter.md) - CSS Filter Input Field
 
 ## Field Type Helpers
 [Selector](https://github.com/themeum/WP-Page-Builder/blob/master/selector.md) in field type.
