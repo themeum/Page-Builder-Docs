@@ -67,7 +67,7 @@ class Custom_Addon{
 
     public function render($data = null){
         $settings = $data['settings'];
-        return '<div class="wrapper">TextArea Output:'.$settings['custom_addon_textarea'].'</div>';;
+        return '<div class="wrapper">TextArea Output:'.$settings['custom_addon_textarea'].'</div>';
     }
 
     // headline Template
