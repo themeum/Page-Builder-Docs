@@ -30,7 +30,7 @@ Not support 'selector' parameters.
 
 ## Controls
 ### PHP
-Inside the `rander()` method
+Inside the `render()` method
 ```php
 echo '<div class="sample-animation wppb-wow wppb-animated '.$data['settings']['addon_animation']['name'].' '.$data['settings']['addon_animation']['duration'].'" data-wppb-wow-delay="'.$data['settings']['addon_animation']['delay'].'"> Animated Text </div>';
 ```
